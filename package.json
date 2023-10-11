@@ -4,6 +4,7 @@
   "description": "Bijles sr game",
   "scripts": {
     "start": "webpack serve --mode development",
+    "prebuild": "node pre-build.js",
     "build": "webpack --mode production"
   },
   "keywords": [],
